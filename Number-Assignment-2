@@ -1,0 +1,41 @@
+
+puts "This program will ask you to enter numbers and share if the number is less than 20."
+
+puts "Enter the first number:"
+user_first = gets.chomp()
+
+if user_first >= "20"
+  puts "#{user_first} is greater or equal to 20."
+else 
+  puts "#{user_first} is less than 20."
+end 
+
+puts "Enter the second number:"
+user_second = gets.chomp()
+
+if user_second >= "20"
+  puts "#{user_second} is greater or equal to 20."
+else 
+  puts "#{user_second} is less than 20."
+end 
+
+puts "Enter the second number:"
+user_third = gets.chomp()
+
+if user_third >= "20"
+  puts "#{user_third} is greater or equal to 20."
+else 
+  puts "#{user_third} is less than 20."
+end 
+
+puts "Enter the second number:"
+user_fourth = gets.chomp()
+
+if user_fourth >= "20"
+  puts "#{user_fourth} is greater or equal to 20."
+else 
+  puts "#{user_fourth} is less than 20."
+end 
+
+
+puts "Numbers you enters were #{user_first}, #{user_second}, #{user_third}, and #{user_fourth}."
